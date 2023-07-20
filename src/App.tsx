@@ -13,7 +13,7 @@ function App() {
       domain="dev-2octiplbwtfgs5c1.us.auth0.com"
       clientId="sLTk6miLBIR1T1He5fze3SPAQWYHIjet"
       authorizationParams={{
-        redirect_uri: "https://meek-elf-feedfd.netlify.app"
+        redirect_uri: "https://meek-elf-feedfd.netlify.app/"
       }}
     >
       <HashRouter>
