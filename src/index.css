@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+
+.movie_container {
+    width: 100%;
+    margin: 1em auto;
+}
+
+.movie_grid {
+    display: grid;
+    margin-left: .5px;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 0.2em;
+    justify-content: center;
+}
+
