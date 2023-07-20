@@ -33,7 +33,7 @@ const routes: RouteType[] = [
       path: "/movies",
       component: Movies,
       name: "Movies",
-      protected: true
+      protected: false
     }
 ];
 
