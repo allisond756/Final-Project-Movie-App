@@ -1,6 +1,5 @@
 import { Modal } from 'react-bootstrap'
 import { useState } from 'react';
-import Button from './Button';
 
 const API_IMG_URL = "https://image.tmdb.org/t/p/w500/"
 
