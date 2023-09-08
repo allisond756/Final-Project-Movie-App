@@ -21,7 +21,7 @@ export const server_calls = {
     },
 
     create: async (data: any = {}) => {
-        const response = await fetch(`https://flask-movie-app.onrender.com/api/movies`,
+        const response = await fetch(`https://flask-movie-app.onrender.com/api/movie`,
         {
             method: 'POST',
             headers: {
