@@ -41,7 +41,7 @@ export const server_calls = {
     },
 
     update: async (id: string, data:any = {}) => {
-        const response = await fetch(`https://flask-movie-app.onrender.com/api/movies/${id}`,
+        const response = await fetch(`https://flask-movie-app.onrender.com/api/movie/${id}`,
         {
             method: 'PUT',
             headers: {
@@ -61,7 +61,7 @@ export const server_calls = {
     },
 
     delete: async (id: string) => {
-        const response = await fetch(`https://flask-movie-app.onrender.com/api/movies/${id}`,
+        const response = await fetch(`https://flask-movie-app.onrender.com/api/movie/${id}`,
         {
             method: 'DELETE',
             headers: {
