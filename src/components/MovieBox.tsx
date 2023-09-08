@@ -1,5 +1,6 @@
 import { Modal } from 'react-bootstrap'
 import { useState } from 'react';
+import Button from './Button';
 
 const API_IMG_URL = "https://image.tmdb.org/t/p/w500/"
 
@@ -9,6 +10,7 @@ const MovieBox = ({title='', poster_path='', vote_average='', release_date='', o
 
   const handleShow = () =>setShow(true)
   const handleClose = () =>setShow(false)
+  
 
   return (
     <div className="card text-center bg-emerald-300 p-3 m-2 rounded border-2 border-dotted border-emerald-950">
