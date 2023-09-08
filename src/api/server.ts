@@ -1,8 +1,8 @@
-const token = 'ad988f0307368ab30583baacc3277594c80711557713d7c6'
+const token = '2f3ea7525e7975b22fd5769afba47e8557ca9553ecf9524e'
 
 export const server_calls = {
     get: async () => { 
-        const response = await fetch(`https://final-project-movie-app.onrender.com/api/movies`,
+        const response = await fetch(`https://flask-movie-app.onrender.com/api/movies`,
         {
             method: 'GET',
             headers: {
@@ -21,7 +21,7 @@ export const server_calls = {
     },
 
     create: async (data: any = {}) => {
-        const response = await fetch(`https://final-project-movie-app.onrender.com/api/movie`,
+        const response = await fetch(`https://flask-movie-app.onrender.com/api/movie`,
         {
             method: 'POST',
             headers: {
@@ -41,7 +41,7 @@ export const server_calls = {
     },
 
     update: async (id: string, data:any = {}) => {
-        const response = await fetch(`https://final-project-movie-app.onrender.com/api/movie/${id}`,
+        const response = await fetch(`https://flask-movie-app.onrender.com/api/movie/${id}`,
         {
             method: 'PUT',
             headers: {
@@ -61,7 +61,7 @@ export const server_calls = {
     },
 
     delete: async (id: string) => {
-        const response = await fetch(`https://final-project-movie-app.onrender.com/api/movie/${id}`,
+        const response = await fetch(`https://flask-movie-app.onrender.com/api/movie/${id}`,
         {
             method: 'DELETE',
             headers: {
